@@ -13,6 +13,8 @@
 		BCF5C4E01D1BE1D2001FDA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF5C4DE1D1BE1D2001FDA6F /* Main.storyboard */; };
 		BCF5C4E21D1BE1D2001FDA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF5C4E11D1BE1D2001FDA6F /* Assets.xcassets */; };
 		BCF5C4E51D1BE1D2001FDA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF5C4E31D1BE1D2001FDA6F /* LaunchScreen.storyboard */; };
+		BCF5C4F01D1BE4B9001FDA6F /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF5C4ED1D1BE4B9001FDA6F /* UITableView+SDAutoTableViewCellHeight.m */; };
+		BCF5C4F11D1BE4B9001FDA6F /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF5C4EF1D1BE4B9001FDA6F /* UIView+SDAutoLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		BCF5C4E11D1BE1D2001FDA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCF5C4E41D1BE1D2001FDA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCF5C4E61D1BE1D2001FDA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF5C4EC1D1BE4B9001FDA6F /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		BCF5C4ED1D1BE4B9001FDA6F /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		BCF5C4EE1D1BE4B9001FDA6F /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		BCF5C4EF1D1BE4B9001FDA6F /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		BCF5C4D41D1BE1D2001FDA6F /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				BCF5C4EC1D1BE4B9001FDA6F /* UITableView+SDAutoTableViewCellHeight.h */,
+				BCF5C4ED1D1BE4B9001FDA6F /* UITableView+SDAutoTableViewCellHeight.m */,
+				BCF5C4EE1D1BE4B9001FDA6F /* UIView+SDAutoLayout.h */,
+				BCF5C4EF1D1BE4B9001FDA6F /* UIView+SDAutoLayout.m */,
 				BCF5C4D81D1BE1D2001FDA6F /* AppDelegate.h */,
 				BCF5C4D91D1BE1D2001FDA6F /* AppDelegate.m */,
 				BCF5C4DB1D1BE1D2001FDA6F /* ViewController.h */,
@@ -152,7 +162,9 @@
 			files = (
 				BCF5C4DD1D1BE1D2001FDA6F /* ViewController.m in Sources */,
 				BCF5C4DA1D1BE1D2001FDA6F /* AppDelegate.m in Sources */,
+				BCF5C4F01D1BE4B9001FDA6F /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				BCF5C4D71D1BE1D2001FDA6F /* main.m in Sources */,
+				BCF5C4F11D1BE4B9001FDA6F /* UIView+SDAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				BCF5C4EB1D1BE1D2001FDA6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
